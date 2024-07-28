@@ -1,0 +1,27 @@
+
+#calculator{
+  color: aliceblue;
+  border: 1px solid rgb(161, 157, 154);
+  border-radius: 5px;
+  width: 200px;
+   background-image: url(cal.jpeg);
+  place-content: center;
+  box-shadow: 4px;
+ 
+}
+#display{
+  margin: 10px;
+  width: 85%;
+  font-size: 25px;
+  background-color: antiquewhite;
+}
+.button{
+  width:45px;
+  height: 40px;
+  margin: 3px;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
